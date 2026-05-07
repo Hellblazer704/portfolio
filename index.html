@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srisailesh N — AI, Finance & Strategy</title>
+  <meta name="description" content="Portfolio of Srisailesh N — B.Tech at IIPE, specializing in AI/ML, quantitative finance, and strategic consulting. Winner of FinShield Hackathon (Bank of India), HP Power Lab National Finalist." />
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <span class="loader-text">SRISAILESH N</span>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="/images/headshot.jpg" alt="Srisailesh N" class="nav-avatar" />
+      <span class="nav-logo-text">Srisailesh N</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="/Srisailesh_Resume.pdf" target="_blank" class="btn btn-primary" style="padding:10px 24px;">Download CV</a></li>
+    </ul>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#experience" onclick="closeMobile()">Experience</a>
+  <a href="#achievements" onclick="closeMobile()">Achievements</a>
+  <a href="#projects" onclick="closeMobile()">Projects</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="/Srisailesh_Resume.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+</div>
+
+<!-- Hero -->
+<section id="hero">
+  <div id="canvas-container"></div>
+  <div class="container hero-content">
+    <div class="hero-split">
+      <div class="hero-text">
+        <p class="label reveal" style="margin-bottom:16px; color:var(--teak-brown);">AI · Finance · Strategy</p>
+        <h1 class="reveal">I build things that think, predict & scale.</h1>
+        <p class="hero-tagline reveal">From AI systems adopted by national banks to founding a consulting chapter at 19 — I don't wait for the right opportunity, I engineer it.</p>
+        <div class="hero-buttons reveal">
+          <a href="#projects" class="btn btn-primary">
+            <span class="material-symbols-outlined" style="font-size:18px;">cases</span>
+            See My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <span class="material-symbols-outlined" style="font-size:18px;">mail</span>
+            Let's Talk
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="hero-photo-frame">
+          <img src="/images/headshot.jpg" alt="Srisailesh N" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <span class="material-symbols-outlined">expand_more</span>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container about-grid">
+    <div>
+      <h2 class="reveal-left">Who<br/>I Am</h2>
+    </div>
+    <div class="about-content">
+      <p class="reveal-right">Most people my age are figuring out what they want to do. I'm already building it. I've shipped an AI credit engine that a national bank actually uses, designed financial models that adapt to market chaos in real-time, and founded a consulting chapter that went from zero to live client engagements in under three months.</p>
+      <p class="reveal-right">I'm a second-year B.Tech student at IIPE, but the classroom is honestly the smallest part of my education. The real learning happens when I'm neck-deep in a hackathon at 3 AM, stress-testing a model that needs to work by morning, or convincing a room full of judges that my team's solution isn't just clever — it's deployable.</p>
+      <p class="reveal-right">What drives me? The gap between what AI can theoretically do and what it actually does in the real world. I want to close that gap — in finance, in energy, in any system where better intelligence means better outcomes for real people.</p>
+      <div class="skills-section reveal-right">
+        <div class="skills-category">
+          <h4>Languages & Databases</h4>
+          <div class="skills-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">SQL / PostgreSQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>ML & AI Engineering</h4>
+          <div class="skills-tags">
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">NumPy / Pandas</span>
+            <span class="skill-tag">Time-Series Modeling</span>
+            <span class="skill-tag">NLP / Transformers</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">RAG Systems</span>
+            <span class="skill-tag">LLM Fine-Tuning</span>
+            <span class="skill-tag">Adversarial Robustness</span>
+            <span class="skill-tag">Reinforcement Learning</span>
+            <span class="skill-tag">Feature Engineering</span>
+            <span class="skill-tag">Model Deployment</span>
+            <span class="skill-tag">MLflow / W&B</span>
+            <span class="skill-tag">Quantitative Modeling</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>Systems & DevOps</h4>
+          <div class="skills-tags">
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">Data Pipelines</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">AWS / GCP</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Apache Spark</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h4>Strategy & Soft Skills</h4>
+          <div class="skills-tags">
+            <span class="skill-tag">Structured Problem Solving</span>
+            <span class="skill-tag">Stakeholder Communication</span>
+            <span class="skill-tag">Data-Driven Decision Making</span>
+            <span class="skill-tag">Team Leadership</span>
+            <span class="skill-tag">Client Engagement</span>
+            <span class="skill-tag">Strategic Frameworks</span>
+            <span class="skill-tag">Public Speaking</span>
+            <span class="skill-tag">Cross-Functional Collaboration</span>
+            <span class="skill-tag">Market Research</span>
+            <span class="skill-tag">Executive Presentation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <h2 class="reveal-left">Experience<br/>& Leadership</h2>
+      </div>
+      <div>
+        <div class="timeline">
+          <div class="timeline-item reveal-right">
+            <h3>Founder & President — 180 Degrees Consulting, IIPE</h3>
+            <div class="timeline-meta">Nov 2025 – Present · Visakhapatnam</div>
+            <p>Started with an idea and zero infrastructure. Within 3 months, built a full-stack consulting operation — recruited and trained a 20+ member team, secured real clients, and delivered data-driven strategy engagements for NGOs and mid-sized companies. Not a college club; a functioning consultancy.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <h3>Founder & Head — Quizzing Club, IIPE</h3>
+            <div class="timeline-meta">Oct 2024 – Present · Visakhapatnam</div>
+            <p>Turned a non-existent quiz culture into a 200+ member community and IIPE's most active club. Organized 15+ events, took teams to national podiums, and proved that building culture from scratch is just another execution problem.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <h3>Project Intern — Wheels India Ltd.</h3>
+            <div class="timeline-meta">Jul 2025 – Aug 2025 · Chennai</div>
+            <p>Walked into a factory floor and found a 12% efficiency gap everyone had accepted as normal. Didn't accept it. Rebuilt the bottleneck analysis from scratch and deployed SPC-driven quality dashboards that gave the floor team real-time decision power.</p>
+          </div>
+          <div class="timeline-item reveal-right">
+            <h3>Summer Intern — The Madras Pharmaceuticals</h3>
+            <div class="timeline-meta">Jun 2025 – Jul 2025 · Chennai</div>
+            <p>Got hands-on with pharmaceutical R&D — running formulation workflows, HPLC analyses, and stability testing under actual GMP/ICH conditions. Learned that precision in the lab and precision in code aren't that different.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+  <div class="container achievements-grid">
+    <div class="achievements-sticky">
+      <h2 class="reveal-left">Key<br/>Milestones</h2>
+      <p class="text-warm reveal-left" style="margin-top:16px;">Quantifiable impact across competitions, hackathons, and leadership.</p>
+    </div>
+    <div class="achievement-list">
+      <div class="achievement-item achievement-with-photo reveal-right">
+        <div class="achievement-photo">
+          <img src="/images/finshield-win.jpg" alt="FinShield Hackathon winning moment" />
+        </div>
+        <div>
+          <h3>FinShield Hackathon — Bank of India</h3>
+          <p>Built RISKON from scratch in 36 hours — an AI credit intelligence platform that doesn't just score risk, it understands borrower behavior. The Bank of India didn't just give us the ₹5L prize; they adopted the platform.</p>
+          <span class="achievement-badge badge-winner">Winner</span>
+          <div class="achievement-date">September 2025</div>
+        </div>
+      </div>
+      <div class="achievement-item achievement-with-photo reveal-right">
+        <div class="achievement-photo">
+          <img src="/images/hpcl-win.jpg" alt="HP Power Lab finalist ceremony" />
+        </div>
+        <div>
+          <h3>HP Power Lab — National Finalist</h3>
+          <p>99,000+ teams entered. 15 made it to the national stage. We were one of them. Walked away with a ₹50K prize and the validation that our approach to engineering problems wasn't just different — it was better.</p>
+          <span class="achievement-badge badge-finalist">National Finalist</span>
+          <div class="achievement-date">March 2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="container">
+    <div class="projects-header">
+      <div>
+        <h2 class="reveal-left">Things<br/>I've Built</h2>
+        <p class="reveal-left">Each project started with a real problem. Click any card to dive into the full deck.</p>
+      </div>
+      <div class="filter-tabs reveal-right" id="filterTabs"></div>
+    </div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <h2 class="reveal">Let's Build Something</h2>
+    <p class="reveal">I'm always up for a good conversation — whether it's about a potential role, a wild project idea, or just nerding out about markets and ML. Drop me a line.</p>
+    <div class="contact-buttons reveal">
+      <a href="mailto:srisailesh2@gmail.com" class="btn btn-primary">
+        <span class="material-symbols-outlined" style="font-size:18px;">mail</span>
+        Email Me
+      </a>
+      <a href="https://www.linkedin.com/in/srisaileshn/" target="_blank" class="btn btn-outline" style="border-color:var(--teak-brown);color:var(--teak-brown);">
+        <span class="material-symbols-outlined" style="font-size:18px;">open_in_new</span>
+        LinkedIn
+      </a>
+      <a href="https://github.com/srisaileshn" target="_blank" class="btn btn-outline" style="border-color:var(--warm-gray);color:var(--warm-gray);">
+        <span class="material-symbols-outlined" style="font-size:18px;">code</span>
+        GitHub
+      </a>
+    </div>
+    <form class="contact-form reveal" id="contactForm" onsubmit="handleContact(event)">
+      <div class="form-group">
+        <label for="contact-name">Your Name</label>
+        <input type="text" id="contact-name" name="name" required placeholder="Jane Doe" />
+      </div>
+      <div class="form-group">
+        <label for="contact-email">Email</label>
+        <input type="email" id="contact-email" name="email" required placeholder="jane@company.com" />
+      </div>
+      <div class="form-group">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" rows="4" required placeholder="I'd love to discuss..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="align-self:flex-start;">
+        <span class="material-symbols-outlined" style="font-size:18px;">send</span>
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo-text" style="color:var(--on-primary);">Srisailesh N</span>
+        <p>Builder, breaker, and fixer of complex systems. Currently engineering the future from IIPE, Visakhapatnam.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="mailto:srisailesh2@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/srisaileshn/" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/srisaileshn" target="_blank">GitHub</a></li>
+          <li><a href="/Srisailesh_Resume.pdf" target="_blank">Download CV</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Srisailesh N. Crafted with precision.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- PDF Modal -->
+<div class="pdf-modal" id="pdfModal">
+  <div class="pdf-modal-header">
+    <span class="pdf-modal-title" id="pdfTitle"></span>
+    <button class="pdf-modal-close" id="pdfClose" aria-label="Close">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+  </div>
+  <div class="pdf-viewer">
+    <canvas id="pdfCanvas"></canvas>
+  </div>
+  <button class="pdf-nav-btn prev" id="pdfPrev" aria-label="Previous page">
+    <span class="material-symbols-outlined">chevron_left</span>
+  </button>
+  <button class="pdf-nav-btn next" id="pdfNext" aria-label="Next page">
+    <span class="material-symbols-outlined">chevron_right</span>
+  </button>
+  <div class="pdf-page-info" id="pdfPageInfo"></div>
+</div>
+
+<!-- Scripts (CDN) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+  if (window.pdfjsLib) {
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+  }
+</script>
+<script type="module" src="/particles.js"></script>
+<script type="module" src="/projects.js"></script>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
